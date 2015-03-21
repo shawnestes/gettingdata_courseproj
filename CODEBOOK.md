@@ -17,15 +17,14 @@ Analysis cleans and extracts usable data from the raw dataset. Runing run_analys
 
 From the raw data, measurement categories were renamed for ease of use and normalization: 
 
-BodyBody becomes Body-
-tBody becomes TimeBody-
-gravity becomes Gravity
-
-Measurements beginning with "t" were append with "Time-"
-Measurements beginning with "f" were appended with "Frequency-"
+- BodyBody becomes Body-
+- tBody becomes TimeBody-
+- gravity becomes Gravity
+- Measurements beginning with "t" were append with "Time-"
+- Measurements beginning with "f" were appended with "Frequency-"
 
 All measurements that contain names that appear like functions were replaced. 
 
--mean() becomes -Mean
--std() becomes -STD
--freq() becomes -Frequency
+- mean() becomes -Mean
+- std() becomes -STD
+- freq() becomes -Frequency
