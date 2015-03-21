@@ -28,3 +28,7 @@ All measurements that contain names that appear like functions were replaced.
 - mean() becomes -Mean
 - std() becomes -STD
 - freq() becomes -Frequency
+
+#### Measurements
+
+All variables/measurements that indicate a standard or mean value were extracted and averaged by the activity and subject
